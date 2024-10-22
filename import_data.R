@@ -7,14 +7,14 @@ if (!require("httr")) {
 }
 
 # Function to download and save the dataset
-import_and_save_data <- function(file_path = "data/StadyL_Study2.sav") {
+import_and_save_data <- function(file_path = "data/artical/Analysis Post-PAP.R") {
     # Create data directory if it doesn't exist
     if (!dir.exists("data")) {
         dir.create("data")
     }
 
     # Define the URL of the dataset
-    data_url <- "https://osf.io/r4wg2/download"
+    data_url <- "https://osf.io/uhma8/download"
 
     # Download the dataset if not already saved
     if (!file.exists(file_path)) {
