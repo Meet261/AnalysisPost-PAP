@@ -7,7 +7,7 @@ if (!require("httr")) {
 }
 
 # Function to download and save the dataset
-import_and_save_data <- function(file_path = "data/artical/Analysis Post-PAP.R") {
+import_and_save_data <- function(file_path = "Pre-analysis plans/artical/Analysis Post-PAP.R") {
     # Create data directory if it doesn't exist
     if (!dir.exists("data")) {
         dir.create("data")
