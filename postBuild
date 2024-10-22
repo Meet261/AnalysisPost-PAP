@@ -1,0 +1,6 @@
+#!/bin/bash
+# Download the dataset from the provided OSF link
+wget -O Analysis_Post_PAP.RData https://osf.io/download/v6fsg/Analysis_Post_PAP.RData
+
+# Load the RData file (optional - could also be handled in the R script)
+Rscript -e "load('Analysis_Post_PAP.RData')"
