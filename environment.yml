@@ -1,0 +1,25 @@
+name: r-environment
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.1  # Specify the R version
+  - r-ggplot2
+  - r-plyr
+  - r-dplyr
+  - r-tidyr
+  - r-sjplot
+  - r-formattable
+  - r-rcolorbrewer
+  - r-hrbrthemes
+  - r-viridis
+  - r-corrplot
+  - r-hmisc
+  - r-janitor
+  - r-mfx
+  - r-jtools
+  - r-ggstance
+  - r-broom.mixed
+  - r-nnet
+  - r-margins
+  - r-lemon
+  - r-stargazer
